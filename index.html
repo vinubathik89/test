@@ -1041,8 +1041,8 @@
         }
         document.getElementById('print-barcodes-btn').addEventListener('click', generateBarcodePDF);
 
-        const TEXTBEE_API_KEY = '810d145b-29db-427a-a810-3a12cdfbacdf';
-        const TEXTBEE_DEVICE_ID = '68d8b92eceb77880de829b26';
+        const TEXTBEE_API_KEY = 'f85b579f-b794-4d22-89f7-612554c79839';
+        const TEXTBEE_DEVICE_ID = '68f9e8f0d9c584338c182652';
         async function sendSms(phoneNumber, templateName, data) {
             let message = smsTemplates[templateName] || '';
             if (!message) { console.error(`SMS template '${templateName}' not found.`); return; }
